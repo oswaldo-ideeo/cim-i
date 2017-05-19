@@ -167,7 +167,6 @@ ul.alert-dropdown {
 
 
 
-
 .active{
     border-left: 4px solid #00aeef;
     background-color: #4a718e;
@@ -179,4 +178,9 @@ h2.sidebar-head{
     padding-left: 1rem;
     padding-bottom: 1rem;
     font-size: 22px;
+}
+
+
+table.calendar{
+    margin-top: 20px;
 }
