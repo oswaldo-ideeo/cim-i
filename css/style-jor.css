@@ -1,0 +1,173 @@
+table.calendar{
+    margin-top: 15px;
+}
+
+img.calendar{
+	width: 50%;
+	margin-left:7px;
+}
+
+section.section2{
+	background-color:#edeff5;
+	width: 100%;
+	height: auto;
+}
+
+h2.proyecto{
+	color:#00aeef;
+	font-weight: 200;
+}
+
+p.solicitud{
+	color: #0072bc;
+}
+
+.cont-text{
+	margin-top:40px;
+}
+
+ h2.bienvenido{
+	color:#00aeef;
+	
+}
+
+form.buscar{
+	margin-top: 17px;
+}
+
+
+
+.form-control{
+	border:none;
+	border-bottom: 1px solid #ababab;
+	background-color: transparent;
+	box-shadow: none;
+	border-radius: 0px;
+	padding-left: 115px;
+}
+
+button.lupa{
+	background-color: transparent;
+	border: none;
+}
+
+b.bullet{
+	color:#ffc818;
+}
+
+b.bullet:hover{
+	color:#ffffff;
+}
+
+button.lupa:hover{
+    opacity: .5;
+}
+
+ul.lupa{
+	list-style-type: none;
+	margin-top: 20px;
+}
+
+section.section3{
+	margin-top: 40px;
+}
+
+tr.blue-color{
+	background-color: #00d1c7;
+	color: white;
+}
+
+.no-ref, .no-user, .no-pro{
+	color:#0072bc;
+}
+
+.no-ref, .no-user, .no-pro{
+	color:#0072bc;
+}
+
+button.aprobar{
+	background-color:#ffffff;
+	border-radius: 10px;
+	padding:2px 12px 2px 12px;
+	border-color:#ffc818;
+	border-style: solid;
+}
+
+button.aprobar:hover{
+	background-color:#ffc818;
+	border-color:#ffc818;
+	border-style: solid;
+	color: white;
+}
+
+button.detenido{
+	background-color:#ffffff;
+	border-radius: 10px;
+	padding:2px 28px 2px 12px;
+	border-color:#d1d7ea;
+	border-style: solid;
+}
+
+button.detenido:hover{
+	background-color:#d1d7ea;
+	border-color:#d1d7ea;
+	border-style: solid;
+	color: white;
+}
+
+b.bullet-detenido{
+	color:#d1d7ea;
+}
+
+button.entiempo{
+	background-color:#ffffff;
+	border-radius: 10px;
+	padding:2px 17px 2px 12px;
+	border-color:#39b54a;
+	border-style: solid;
+}
+
+button.entiempo:hover{
+	background-color:#39b54a;
+	border-color:#39b54a;
+	border-style: solid;
+	color: white;
+}
+
+b.bullet-entiempo{
+	color:#39b54a;
+}
+
+button.demorado{
+	background-color:#ffffff;
+	border-radius: 10px;
+	padding:2px 18px 2px 12px;
+	border-color:#ff1e07;
+	border-style: solid;
+}
+
+button.demorado:hover{
+	background-color:#ff1e07;
+	border-color:#ff1e07;
+	border-style: solid;
+	color: white;
+}
+
+b.bullet-demorado{
+	color:#ff1e07;
+}
+
+button.mas{
+	background-color: #00aeef;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding: 5px;
+	color: white;
+	border-style: none;
+	border-color: #00aeef;
+	border-radius: 5px;
+	margin: auto;
+	display: block;
+
+}
+

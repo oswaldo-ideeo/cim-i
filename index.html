@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="./css/normalize.css">
 	<link rel="stylesheet" href="./css/font-awesome.min.css">
 	<link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style-jor.css">
 </head>
 <body>
 	<!--top-navbar
@@ -58,7 +59,7 @@
             <!-- Top Menu Items -->
             <ul class="nav navbar-right top-nav">
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-bell"></i> <b class="caret"></b></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img src="images/woman.png"> <b class="caret"></b></a>
                     <ul class="dropdown-menu message-dropdown">
                         <li class="message-preview">
                             <a href="#">
@@ -110,7 +111,7 @@
                     </ul>
                 </li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Usuario <b class="caret"></b></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Cerrar sesión <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         
                         <li>
@@ -127,7 +128,7 @@
                         <a href="index.html">Mis Proyectos</a>
                     </li>
                     <li>
-                        <a href="charts.html">Usuarios</a>
+                        <a href="#">Usuarios</a>
                     </li>
                     <li>
                         <a href="#">Calendario</a>
@@ -178,23 +179,117 @@
                     <div class="container">
                       <div class="row">
                           <div class="col-md-10 col-xs-6">
-                              <h2>Bienvenido(a)</h2>
+                              <h2 class="bienvenido">Bienvenido(a)</h2>
                           </div>
                           <div class="col-md-2 col-xs-6">
-                          <table class="calendar">
+                              <table class="calendar">
                                 <tr>
                                     <th>7-jun-17</th>
-                                    <th><img src="images/calendar.png"></th>
+                                    <th><img class="calendar" src="images/calendar.png"></th>
                                 </tr>
                             </table>
                         </div>
+                    </div>
+                    </div>
+                
+                <div class="container cont-text">
+                       <div class="col-md-1">
+                         <span class="glyphicon glyphicon-record" style="color: red;"></span>
+                       </div>
+                     <div class="col-md-2">
+                          <p class="solicitud"><b>(3)</b> solicitud pendiente</p>
                       </div>
-                  </div>
-              </section>
+                   <div class="col-md-3">
+                     <p><b>(0)</b> incidencias reportadas</p>
+                 </div>
+             </div>
+       </section>
 
 
 
 
+     <section class="section2">
+                <div class="container">
+                  <div class="row">
+                      <div class="col-md-5 col-xs-6">
+                          <h2 class="proyecto">Proyectos</h2>
+                      </div>
+                      <div class="col-md-3 col-xs-3">
+                        <form class="navbar-form navbar-left buscar" role="search">
+                          <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Buscar">
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-4 col-xs-3">
+                  <ul class="lupa">
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Proyecto colaborativo dedicado a la recopilación de tutoriales</a></li>
+                        <li><a href="#">Modelo de aprendizaje y acercamiento a la Ciencia</a></li>
+                    </ul>
+                    <button type="submit" class="lupa"><img src="images/search.png"></button>
+                </li>
+            </ul> 
+        </div> 
+    </div>
+</div>
+
+</section>
+
+
+<section class="section3">
+    <div class="panel panel-default">
+      <table class="table">
+        <tr class="blue-color">
+          <td>No. Referencia</td>
+          <td >Nombre del Proyecto</td>
+          <td >Fecha de Creación</td>
+          <td >Usuario</td>
+          <td >Estatus</td>
+          <td ></td>
+      </tr>
+
+        <tr>
+          <td class="no-ref">96357</td>
+          <td class="no-pro">Estado de Cuenta Bancomer</td>
+          <td>29 Nov</td>
+          <td class="no-user"><img src="images/woman.png"> Evelyn Aguilar</td>
+          <td><button class="aprobar"><b class="bullet">•</b> Aprobación</button></td>
+          <td><a href="#"><span class="glyphicon glyphicon-cog"></span></td></a>
+      </tr>
+
+        <tr>
+          <td class="no-ref">45648</td>
+          <td class="no-pro">Bancomer Movil</td>
+          <td>08 Nov</td>
+          <td class="no-user"><img src="images/man.png"> Esteban Juarez</td>
+          <td><button class="detenido"><b class="bullet-detenido">•</b> Detenido</button></td>
+          <td><a href="#"><span class="glyphicon glyphicon-cog"></span></td></a>
+      </tr>
+
+        <tr>
+          <td class="no-ref">59658</td>
+          <td class="no-pro">Postal tarjeta de Crédito</td>
+          <td>1 Dic</td>
+          <td class="no-user"><img src="images/woman.png"> Evelyn Aguilar</td>
+          <td><button class="entiempo"><b class="bullet-entiempo">•</b> En tiempo</button></td>
+          <td><a href="#"><span class="glyphicon glyphicon-cog"></span></td></a>
+      </tr>
+
+        <tr>
+          <td class="no-ref">87829</td>
+          <td class="no-pro">Folletoo viajes</td>
+          <td>8 Feb</td>
+          <td class="no-user"><img src="images/man.png"> Esteban Juarez</td>
+          <td><button class="demorado"><b class="bullet-demorado">•</b> Demorado</button></td>
+          <td><a href="#"><span class="glyphicon glyphicon-cog"></span></td></a>
+      </tr>
+  </table>
+</div>
+ <a href="#"><button class="mas">Ver más</button></a>
+</section>
 
 
 
