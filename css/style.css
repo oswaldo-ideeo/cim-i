@@ -1,13 +1,8 @@
 *{margin: 0 auto;padding: 0; box-sizing: border-box;}
 
-body{
-	
-}
-
-.separador{
-	height: 50px;
-	width: 100%;
-	clear: both;
+body {
+    margin-top: 100px;
+    background-color: #222;
 }
 
 .container-fluid{
@@ -17,43 +12,14 @@ body{
 
 /* NAV */
 
-.user-icon{
-
-}
-
-.usuario{
-	float: right;
-}
-
-.usuario ul li, .usuario ul p{
-	display: inline-block;
-}
 
 
 
-/*sidebar*/
-.sidebar{
-	background-color: #000;
-}
-
-.menu-item{
-	list-style: none;
-}
 
 
-
-/*!
- * Start Bootstrap - SB Admin (http://startbootstrap.com/)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
 
 /* Global Styles */
 
-body {
-    margin-top: 100px;
-    background-color: #222;
-}
 
 @media(min-width:768px) {
     body {
@@ -90,6 +56,7 @@ body {
 
 .top-nav {
     padding: 0 15px;
+    background: #fff;
 }
 
 .top-nav>li {
@@ -202,11 +169,14 @@ ul.alert-dropdown {
 
 
 .active{
-    border-left: 2px solid red;
+    border-left: 4px solid #00aeef;
     background-color: #4a718e;
 }
 
 h2.sidebar-head{
-    border-bottom: 1px solid #152531;
+    border-bottom: 2px solid #152531;
     color: #fff;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    font-size: 22px;
 }
