@@ -168,6 +168,25 @@ button.mas{
 	border-radius: 5px;
 	margin: auto;
 	display: block;
+}
+
+ h2.estado-cuenta{
+	color:#00aeef;
+	border-bottom: 1px solid black;
+}
+
+.no-ref{
+	margin-left: 10px;
+	border-bottom: 1px solid;
+	font-weight: 200;
+	font-size: 18px;
+}
+
+.solicitudes-espacio{
+	padding-left: 68px;
 
 }
 
+p.color-azul{
+		color:#0072bc;
+}
