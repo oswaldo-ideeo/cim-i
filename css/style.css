@@ -185,7 +185,8 @@ h2.sidebar-head{
 }
 
 .fa-bell{
-color: #4a718e;
+color: #00aeef;
+    transform: rotate(-15deg);
 }
 
 table.calendar{
