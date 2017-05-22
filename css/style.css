@@ -188,6 +188,12 @@ h2.sidebar-head{
 color: #00aeef;
     transform: rotate(-15deg);
 }
+
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+
 /*
 .emergente-proyectos{
     width: 100vw;
