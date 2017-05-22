@@ -190,3 +190,41 @@ button.mas{
 p.color-azul{
 		color:#0072bc;
 }
+
+button.cim-generica{
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 15px;
+	background-color: #ffffff;
+	border-style:solid;
+}
+
+button.cim-generica:hover{
+opacity:.7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
