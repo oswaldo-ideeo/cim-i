@@ -12,36 +12,47 @@
     <link rel="stylesheet" href="./css/style-jor.css">
 </head>
 <body>
-	<!--top-navbar
-	<div class="separador"></div>
-	
-	<nav class="navbar navbar-default navbar-fixed-top">
-  		<div class="container-fluid">
-  			<div class="col-xs-4">
-  				<div class="logo-cliente">
-  					bancomer
-  				</div>
-  			</div>
-  			<div class="col-xs-8">
-  				<div class="usuario">
-  					<ul>
-  						<li class="fa fa-bell" aria-hidden="true"></li>
-  						<li><img src="./images/user-icon.jpg" alt="" class="user-icon"><p>nombre</p></li>
-  						<li class=" fa fa-sign-out" aria-hidden></li><p>Salir</p>
-  					</ul>
-  				</div>
-  			</div>		
-  		</div>
-  	</nav>
-   top-navbar-fin-->
 
-   <!--sidebar-->
-   
-   
+  
 
-   <!--sidebar-fin-->
 
-   
+<!--agregar proyecto
+  
+  <div class="emergente-proyectos">
+    <div class="agregar-proyecto">
+      <div class="heading-proyecto">
+        <h2 class="proyecto">Nuevo Proyecto</h2>
+        <div class="cerrar">cerrar</div>
+      </div>
+      <div class="body-proyecto">
+        <form action="">
+          <label for="tipo" class="etiquetas">Tipo:</label>
+          <select name="tipo" id="" class="opciones">
+            <option value="2">Dato Varibale</option>
+            <option value="2">Dato Fijo</option>
+            <option value="3">Opción3</option>
+          </select>
+          <label for="referencia" class="etiquetas">No.Referencia:</label>
+          <select name="referencia" id="" class="opciones">
+            <option value="1">0937</option>
+            <option value="2">0938</option>
+            <option value="3">0939</option>
+          </select>
+          <label for="nombre" class="etiquetas">Nombre del Proyecto:</label>
+          <select name="nombre" id="" class="opciones">
+            <option value="1">Priority kit</option>
+            <option value="2">Nombre 2</option>
+            <option value="3">Nombre 3</option>
+          </select>
+        </form>
+      </div>
+      <div class="footer-proyecto"></div>
+    </div>
+  </div>
+
+agregar proyecto-->
+
+
    <div id="wrapper">
 
     <!-- Navigation -->
@@ -141,75 +152,61 @@
 <div id="page-wrapper">
 
     <div class="container-fluid">
-
-        <!-- Page Heading -->
-        
-        <div class="row">
-            
-        </div>
-        <!-- /.row -->
-        <section class="section1">
-            <div class="container">
-              <div class="row">
-                  <div class="col-md-10 col-xs-6">
-                      <h2 class="bienvenido">Bienvenido(a)</h2>
-                  </div>
-                  <div class="col-md-2 col-xs-6">
-                      <table class="calendar">
-                        <tr>
-                            <th>7-jun-17</th>
-                            <th><img class="calendar" src="images/calendar.png"></th>
-                        </tr>
-                    </table>
-                </div>
-            </div>
-        </div>
-        
-        <div class="container cont-text">
-         <div class="col-md-1">
-           <span class="glyphicon glyphicon-record" style="color: red;"></span>
-       </div>
-       <div class="col-md-2">
-          <p class="solicitud"><b>(3)</b> solicitud pendiente</p>
-      </div>
-      <div class="col-md-3">
-       <p><b>(0)</b> incidencias reportadas</p>
-   </div>
-</div>
-</section>
-
-
-
-
-<section class="section2">
-    <div class="container">
+           
       <div class="row">
-          <div class="col-md-5 col-xs-6">
-              <h2 class="proyecto">Proyectos</h2>
-          </div>
-          <div class="col-md-3 col-xs-3">
-            <form class="navbar-form navbar-left buscar" role="search">
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder="Buscar">
-            </div>
-        </form>
-    </div>
-    <div class="col-md-4 col-xs-3">
-      <ul class="lupa">
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Proyecto colaborativo dedicado a la recopilación de tutoriales</a></li>
-            <li><a href="#">Modelo de aprendizaje y acercamiento a la Ciencia</a></li>
-        </ul>
-        <button type="submit" class="lupa"><img src="images/search.png"></button>
-    </li>
-</ul> 
-</div> 
-</div>
-</div>
+        <div class="col-md-10 col-xs-6">
+          <h2 class="bienvenido">Bienvenido(a)</h2>
+        </div>
+        <div class="col-md-2 col-xs-6">
+          <table class="calendar">
+            <tr>
+              <th>7-jun-17</th>
+              <th><img class="calendar" src="images/calendar.png"></th>
+            </tr>
+          </table>
+        </div>
+      </div>
+    
+        
+      <div class="row cont-text">
+        <div class="col-md-1">
+          <span class="glyphicon glyphicon-record" style="color: red;"></span>
+        </div>
+        <div class="col-md-2">
+          <p class="solicitud"><b>(3)</b> solicitud pendiente</p>
+        </div>
+        <div class="col-md-3">
+        <p><b>(0)</b> incidencias reportadas</p>
+        </div>
+      </div>
 
-</section>
+
+
+      <div class="row">
+        <div class="col-md-5 col-xs-6">
+          <h2 class="proyecto">Proyectos</h2>
+        </div>
+        <div class="col-md-3 col-xs-3">
+          <form class="navbar-form navbar-left buscar" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Buscar">
+            </div>
+          </form>
+        </div>
+        <div class="col-md-4 col-xs-3">
+          <ul class="lupa">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Proyecto colaborativo dedicado a la recopilación de tutoriales</a></li>
+                <li><a href="#">Modelo de aprendizaje y acercamiento a la Ciencia</a></li>
+              </ul>
+              <button type="submit" class="lupa"><img src="images/search.png"></button>
+            </li>
+          </ul> 
+        </div>
+      </div>  
+
 
 
 <section class="section3">
@@ -263,6 +260,7 @@
 </div>
 <a href="#"><button class="mas">Ver más</button></a>
 </section>
+
 
 
 
