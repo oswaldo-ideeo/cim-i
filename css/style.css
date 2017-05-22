@@ -198,7 +198,9 @@ color: #00aeef;
     background: #000;
 }
 
-
+.solicitud{
+    display: inline-block;
+}
 
 
 @media (max-width: 767px) {
