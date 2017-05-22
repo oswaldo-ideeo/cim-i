@@ -190,10 +190,21 @@ color: #00aeef;
 }
 
 .row{
-    margin-left: 0;
-    margin-right: 0;
+   
 }
 
+.navbar-inverse .navbar-toggle .icon-bar{
+    background: #000;
+}
+
+
+
+
+@media (max-width: 767px) {
+    h2.sidebar-head{
+        color: #000;
+    }
+}
 /*
 .emergente-proyectos{
     width: 100vw;
