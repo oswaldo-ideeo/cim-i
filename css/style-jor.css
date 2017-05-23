@@ -191,6 +191,10 @@ p.color-azul{
 		color:#0072bc;
 }
 
+.marge-icons{
+	margin-left: 37%;
+}
+
 button.cim-generica{
 	padding: 5px;
 	padding-left: 10px;
@@ -206,23 +210,65 @@ opacity:.7;
 
 
 
+td.table-estado{
+	color:#0072bc;
+	text-decoration: underline;
+}
 
 
 
+ul{
+	list-style-type: none;
+}
+
+
+li.float{
+	float:left;
+}
+
+li.status-acount{
+margin-left: 1%;
+}
+
+li.number-ref{
+	margin-left: 15%;
+}
+
+li.date-creation{
+	margin-left: 15%;
+}
+
+li.v-ersion{
+	margin-left: 17%;
+}
+
+li.users-n{
+	margin-left: 10%;
+}
+
+li.pedidos-n{
+	margin-left: 5%;
+}
+
+span.glyphicon-triangle-bottom{
+	margin-left: 3%;
+}
 
 
 
+.visible{
 
+}
 
+.oculto, .dos{
+   display: none;
+   background: blue;
+   color: white;
+}
 
-
-
-
-
-
-
-
-
+.action, .action2{
+	cursor: pointer;
+}
 
 
 

@@ -203,11 +203,13 @@
               </div>
             </div>
             <div class="col-md-6">
+             <div class="marge-icons">
               <img class="add-person" src="images/woman.png">
               <a href="#"><img class="add-icon" src="images/add-icon.png"></a>
               <a href="#"><a href="#"><img class="clip" src="images/clip.png"></a>
               <a href="#"><img class="clip" src="images/fecha.png"></a>
               <a href="#"><img class="clip" src="images/icon-points.png"></a>
+             </div>
             </div>
           </div>
         </div>
@@ -247,56 +249,57 @@
           <div class="panel panel-default">
             <table class="table">
               <tr class="blue-color">
-                <td>No. Referencia</td>
-                <td >Nombre del Proyecto</td>
+                <td>Nombre del Producto</td>
+                <td >No. Referencia</td>
                 <td >Fecha de Creación</td>
-                <td >Usuario</td>
-                <td >Estatus</td>
+                <td >Versiones</td>
+                <td >Usuarios</td>
+                <td ></td>
                 <td ></td>
               </tr>
-
-              <tr>
-                <td class="no-ref">96357</td>
-                <td class="no-pro">Estado de Cuenta Bancomer</td>
-                <td>29 Nov</td>
-                <td class="no-user"><img src="images/woman.png"> Evelyn Aguilar</td>
-                <td><button class="aprobar"><b class="bullet">•</b> Aprobación</button></td>
-                <td><a href="#"><span class="glyphicon glyphicon-cog"></span></td></a>
+              <tr class="visible">
+                <td>Estado de Cuenta</td>
+                <td>603547</td>
+                <td>29 Abr</td>
+                <td>1</td>
+                <td>3 usuarios</td>
+                <td>4 pedidos (s)</td>
+                <td>
+                   <div class="action"><span class="glyphicon glyphicon-triangle-bottom"></span></div>
+                </td>
               </tr>
-
-              <tr>
-                <td class="no-ref">45648</td>
-                <td class="no-pro">Bancomer Movil</td>
-                <td>08 Nov</td>
-                <td class="no-user"><img src="images/man.png"> Esteban Juarez</td>
-                <td><button class="detenido"><b class="bullet-detenido">•</b> Detenido</button></td>
-                <td><a href="#"><span class="glyphicon glyphicon-cog"></span></td></a>
+              <tr class="oculto">
+                <td>fila 21</td>
+                <td>fila 21</td>
+                <td>fila 21</td>
+                <td>fila 21</td>
+                <td>fila 21</td>
+                <td>fila 21</td>
+                <td>fila 21</td>
               </tr>
-
-              <tr>
-                <td class="no-ref">59658</td>
-                <td class="no-pro">Postal tarjeta de Crédito</td>
-                <td>1 Dic</td>
-                <td class="no-user"><img src="images/woman.png"> Evelyn Aguilar</td>
-                <td><button class="entiempo"><b class="bullet-entiempo">•</b> En tiempo</button></td>
-                <td><a href="#"><span class="glyphicon glyphicon-cog"></span></td></a>
+              <tr class="visible">
+                <td>Estado de Cuenta</td>
+                <td>603547</td>
+                <td>29 Abr</td>
+                <td>3</td>
+                <td>3 usuarios</td>
+                <td>1 pedido</td>
+                <td>
+                   <div class="action2"><span class="glyphicon glyphicon-triangle-bottom"></span></div>
+                </td>
               </tr>
-
-              <tr>
-                <td class="no-ref">87829</td>
-                <td class="no-pro">Folletoo viajes</td>
-                <td>8 Feb</td>
-                <td class="no-user"><img src="images/man.png"> Esteban Juarez</td>
-                <td><button class="demorado"><b class="bullet-demorado">•</b> Demorado</button></td>
-                <td><a href="#"><span class="glyphicon glyphicon-cog"></span></td></a>
+              <tr class="dos">
+                <td>fila 21</td>
+                <td>fila 21</td>
+                <td>fila 21</td>
+                <td>fila 21</td>
+                <td>fila 21</td>
+                <td>fila 21</td>
+                <td>fila 21</td>
               </tr>
             </table>
           </div>
-          <a href="#"><button class="mas">Ver más</button></a>
         </section>
-
-
-
 
 
 </div>
@@ -310,9 +313,22 @@
 
 
 
-
-
 	<script src="./js/jquery.min.js"></script>
 	<script src="./js/bootstrap.min.js"></script>
+
+
+<!-- scrip tablas -->
+  <script>
+        $(".action").click(function(){
+            $(".oculto").slideToggle();
+        })
+        $(".action2").click(function(){
+            $(".dos").slideToggle();
+        })
+
+</script>
+<!--cierre scrip tablas -->
+
+
 </body>
 </html>
