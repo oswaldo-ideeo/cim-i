@@ -320,7 +320,43 @@ opacity: .7;
 }
 
 button.buton-solicitud{
-	font-size: 13px;
-
-
+	font-size: 11px;
+	color: black;
+	background-color: #ffffff;
+	border-color: #d1d7ea;
 }
+
+button.buton-solicitud:hover{
+	color:#ffffff;
+	background-color: #00aeef;
+	border-color: #00aeef;
+}
+
+button.buton-solicitud:focus{
+	color:#ffffff;
+	background-color: #00aeef;
+	border-color: #00aeef;
+}
+
+button.buton-solicitud:active{
+	color:#ffffff;
+	background-color: #00aeef;
+	border-color: #00aeef;
+}
+
+.f-v{
+	margin-top:1%;
+}
+
+
+input.fecha{
+ width: 30%;
+}
+
+
+
+
+
+
+
+
