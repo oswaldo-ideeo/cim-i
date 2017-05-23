@@ -215,7 +215,7 @@ color: #00aeef;
     background: rgba(0,0,0,0.5);
     position: absolute;
     z-index: 100;
-    display: none;
+ 
 }
 
 .agregar-proyecto{
@@ -255,4 +255,19 @@ color: #00aeef;
     border-radius: 100%!important;
     margin-bottom: 2rem;
     text-align: center;
+}
+
+img.sol-pd{
+    margin-top: 8%;
+    margin-left: 28%;
+}
+
+img.sol-pd:hover{
+opacity: .8;
+cursor: pointer;
+}
+
+h4.modal-title{
+    color:#00aeef;
+    font-weight: 300;
 }

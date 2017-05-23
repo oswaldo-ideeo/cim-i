@@ -228,7 +228,7 @@
                   </div>
                 </form>
               </div>
-              <div class="col-md-4 col-xs-3">
+              <div class="col-md-1 col-xs-3">
                 <ul class="lupa">
                   <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></a>
@@ -240,9 +240,65 @@
                   </li>
                 </ul> 
               </div> 
+              <div class="col-md-2 col-xs-6">
+              <!-- Button trigger modal -->
+               <img  data-toggle="modal" data-target="#myModal" class="sol-pd" src="images/solicitar-pd.png">
+              </div>
             </div>
             </div>
         </section>
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Nueva Solicitud</h4>
+              </div>
+              <div class="modal-body">
+                <div class="body-proyecto">
+                  <form action="">
+                    <label for="tipo" class="etiquetas">Tipo:</label>
+                    <select name="tipo" id="" class="opciones">
+                      <option value="2">Dato Varibale</option>
+                      <option value="2">Dato Fijo</option>
+                      <option value="3">Opción3</option>
+                    </select>
+                    <label for="referencia" class="etiquetas">Producto:</label>
+                    <select name="referencia" id="" class="opciones">
+                      <option value="1">0937</option>
+                      <option value="2">0938</option>
+                      <option value="3">0939</option>
+                    </select>
+                    <label for="nombre" class="etiquetas">Ruta de la BdD:</label>
+                    <div class="form-group">
+                    
+                      <input type="email" class="form-control" id="email">
+                    </div>
+                    <label for="nombre" class="etiquetas">Archivo:</label>
+                    <select name="nombre" id="" class="opciones">
+                      <option value="1">Priority kit</option>
+                      <option value="2">Nombre 2</option>
+                      <option value="3">Nombre 3</option>
+                    </select>
+                    <label for="nombre" class="etiquetas">Cantidad de piezas</label>
+                    <select name="nombre" id="" class="opciones">
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                    </select>
+                  </form>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+                <button type="button" class="btn btn-primary">Enviar orden</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- TERMINA Modal -->
 
 
         <section class="section3">
@@ -435,6 +491,12 @@
 	<script src="./js/jquery.min.js"></script>
 	<script src="./js/bootstrap.min.js"></script>
 
+<!--modal-->
+<script>
+$('#myModal').on('shown.bs.modal', function () {
+  $('#myInput').focus()
+})
+</script>
 
 <!-- scrip tablas -->
   <script>
