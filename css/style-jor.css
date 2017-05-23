@@ -260,10 +260,9 @@ span.glyphicon-triangle-bottom{
 
 }
 
-.oculto, .dos{
+.uno, .dos, .tres{
    display: none;
-   background: blue;
-   color: white;
+
 }
 
 .action, .action2{
@@ -271,6 +270,39 @@ span.glyphicon-triangle-bottom{
 }
 
 
+td.estado-color{
+	color:#0072bc;
+	text-decoration: underline;
+}
+
+tr.dos, tr.uno, tr.tres{
+	background-color: #f4f7f9;
+}
 
 
+h4.h4-ver{
+	float: left;
+}
 
+img.sol-pedido{
+	margin-left: 3%;
+	margin-top: 1.3%;
+}
+
+img.sol-pedido:hover{
+opacity: .7;
+cursor: pointer;
+}
+
+span.glyphicon-triangle-bottom:hover{
+	opacity: .7;
+
+}
+
+span.glyphicon-share-alt{
+color:#d1d7ea;
+cursor: pointer;
+}
+span.glyphicon-share-alt:hover{
+opacity: .7;
+}
