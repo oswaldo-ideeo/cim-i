@@ -32,7 +32,7 @@ p.solicitud{
 }
 
 form.buscar{
-	margin-top: 17px;
+	margin-top: 27px;
 }
 
 
@@ -191,7 +191,7 @@ button.mas{
 }
 
 .solicitudes-espacio{
-	padding-left: 68px;
+	padding-left: 131px;
 
 }
 
@@ -353,6 +353,10 @@ input.fecha{
  width: 30%;
 }
 
+img.sol-pd{
+    margin-top:2%;
+    margin-left: 20%;
+}
 
 
 
