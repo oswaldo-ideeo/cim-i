@@ -37,13 +37,21 @@ form.buscar{
 
 
 
-.form-control{
+.form-control-buscar{
 	border:none;
 	border-bottom: 1px solid #ababab;
 	background-color: transparent;
 	box-shadow: none;
 	border-radius: 0px;
 	padding-left: 115px;
+}
+
+label.float-der{
+	float: left;
+}
+
+input.form-formulario{
+	width: 60%;
 }
 
 button.lupa{
