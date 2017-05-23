@@ -51,7 +51,7 @@ label.float-der{
 }
 
 input.form-formulario{
-	width: 60%;
+	width: 67%;
 }
 
 button.lupa{
@@ -313,4 +313,14 @@ cursor: pointer;
 }
 span.glyphicon-share-alt:hover{
 opacity: .7;
+}
+
+.boton-grups{
+	padding-bottom: 50px !important;
+}
+
+button.buton-solicitud{
+	font-size: 13px;
+
+
 }
