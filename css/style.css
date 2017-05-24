@@ -2,7 +2,7 @@
 
 body {
     margin-top: 100px;
-    background-color: #222;
+    background-color:white;
 }
 
 .container-fluid{
@@ -252,7 +252,6 @@ color: #00aeef;
     padding-right: 2rem;
     border:1px #aaa solid;
     height: 40px;
-    border-radius: 100%!important;
     margin-bottom: 2rem;
     text-align: center;
 }
