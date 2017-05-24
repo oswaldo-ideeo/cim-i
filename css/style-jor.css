@@ -216,6 +216,13 @@ button.cim-generica:hover{
 opacity:.7;
 }
 
+img.add-icon:hover{
+	opacity: .6;
+}
+
+img.clip:hover{
+	opacity: .6;
+}
 
 
 td.table-estado{
