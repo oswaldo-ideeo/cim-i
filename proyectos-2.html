@@ -243,29 +243,36 @@
                 <div class="body-proyecto">
                   <form action="">
                     <label for="tipo" class="etiquetas">Tipo:</label>
-                    <select name="tipo" id="" class="opciones">
-                      <option value="2">Dato Varibale</option>
+                    <select name="tipo" id="opciones" class="opciones">
+                      <option value="0">Elige una opción</option>
+                      <option value="1">Dato Varibale</option>
                       <option value="2">Dato Fijo</option>
                       <option value="3">Opción3</option>
                     </select>
+                    
+                    <div class="data1">
                     <label for="referencia" class="etiquetas">Producto:</label>
                     <select name="referencia" id="" class="opciones">
                       <option value="1">0937</option>
                       <option value="2">0938</option>
                       <option value="3">0939</option>
                     </select>
+                    </div>
                     
-                    <label for="nombre" class="etiquetas float-der">Ruta de la BdD:</label>
+                    <div class="data1 data2"><label for="nombre" class="etiquetas float-der">Ruta de la BdD:</label>
                     <div class="form-group">
                       <input type="text" class="form-control form-formulario" id="" placeholder="ftp://citi.bnmx/modifica/priority">
                     </div>
+                    </div>
                    
+                    <div class="data1 data2">
                     <label for="nombre" class="etiquetas float-der">Archivo:</label>
                     <div class="form-group">
                       <input type="text" class="form-control form-formulario" id="" placeholder="Prefijo">
                     </div>
+                    </div>
           
-
+                    <div class="data1">
                     <label for="nombre" class="etiquetas float-der">Canales</label>
                     <div class="boton-grups">
                       <div class="col-md-2">
@@ -281,14 +288,20 @@
                        <button type="button" class="btn btn-primary buton-solicitud">Llamada</button>
                      </div>
                    </div>
-
+                   </div>
+                    
+                    <div class="data1">
                     <label for="nombre" class="etiquetas float-der">Cantidad de pzs:</label>
                     <div class="form-group">
                       <input type="text" class="form-control form-formulario" id="" placeholder="80,000">
                     </div>
+                    </div>
+
+                    <div class="data1">
                     <div class="input-date">
                     <label for="nombre" class="etiquetas float-der f-v">Fecha de vencimiento</label>
                      <input class="form-control fecha" type="date" name="">
+                   </div>
                    </div>
                   </form>
                 </div>
@@ -514,7 +527,28 @@ $('#myModal').on('shown.bs.modal', function () {
 
 </script>
 <!--cierre scrip tablas -->
+<script>
 
+
+
+
+$('#opciones').on('change',function(){
+    var valor = $(this).val();
+
+    if (valor == 1) {
+      $('.data1').show();
+    } else if (valor == 2) {
+      $('.data1').hide()
+      $('.data2').show();
+
+    }
+});
+
+
+  function mostrarDatos(){
+    var datoTabla = $(select).val();
+  }
+</script>
 
 </body>
 </html>

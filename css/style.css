@@ -267,3 +267,8 @@ h4.modal-title{
     color:#00aeef;
     font-weight: 300;
 }
+
+
+.data1, .data2, .data3{
+    display: none;
+}
