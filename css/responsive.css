@@ -49,3 +49,23 @@
 	}
 
 }
+
+@media only screen and (max-device-width :450px) {
+
+td.responsive-ocult{
+	display:none;
+}
+
+table.calendar{
+	margin-right: -5%;
+}
+
+.form-control-buscar{
+	margin-left: 0%;
+}
+
+	img.sol-pd{
+		padding-bottom: 3%;
+	}
+
+}

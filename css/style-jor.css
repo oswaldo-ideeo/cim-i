@@ -212,6 +212,11 @@ button.cim-generica{
 	border-style:solid;
 }
 
+button.btn-envio{
+	background-color:#00aeef;
+	border-color:#00aeef; 
+}
+
 button.cim-generica:hover{
 opacity:.7;
 }
