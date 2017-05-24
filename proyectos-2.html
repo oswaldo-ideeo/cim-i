@@ -247,7 +247,7 @@
                       <option value="0">Elige una opción</option>
                       <option value="1">Dato Varibale</option>
                       <option value="2">Dato Fijo</option>
-                      <option value="3">Opción3</option>
+                      <option value="3"><!--Opción3--></option>
                     </select>
                     
                     <div class="data1">
@@ -527,11 +527,10 @@ $('#myModal').on('shown.bs.modal', function () {
 
 </script>
 <!--cierre scrip tablas -->
+
+
+<!-- script formulario producto ocultando cosas -->
 <script>
-
-
-
-
 $('#opciones').on('change',function(){
     var valor = $(this).val();
 
@@ -541,9 +540,10 @@ $('#opciones').on('change',function(){
       $('.data1').hide()
       $('.data2').show();
 
+    }else if (valor == 0) {
+      $('.data1 , data2').hide();
     }
 });
-
 
   function mostrarDatos(){
     var datoTabla = $(select).val();
