@@ -499,25 +499,37 @@ a.ver-mas-archivos:hover{
 }
 
 a.ver-comentarios{
-	border:solid 1px;
-	width: 200px;
 	text-align: center;
-	padding: 10px;
-	border-radius: 10px;
-	border-color:#d1d7ea;
 	font-size: 13px;
-	display: block;
-	margin: auto;
+	margin-top: 10%;
+	margin-left: 3%;
+
 }
 
 a.ver-comentarios:hover{
+text-decoration: underline;
+
+}
+
+a.coment-estadocuenta{
 	border-color:#d1d7ea;
 	background-color:#00aeef;
 	color: #ffffff;
 	text-decoration: none;
+	font-size: 13px;
+	padding: 10px;
+	border-radius: 10px;
+	border:solid 1px;
+	width: 200px;
 }
 
+.margin-tp{
+	margin-top: 1%;
+}
 
+a.coment-estadocuenta:hover{
+opacity: .7;
+}
 
 
 
