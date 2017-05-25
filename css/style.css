@@ -1,3 +1,4 @@
+
 *{margin: 0 auto;padding: 0; box-sizing: border-box;}
 
 body {
@@ -274,7 +275,7 @@ h4.modal-title{
 }
 .estado{
     width: 70px;
-    background-color: gray;
+    background-color:#d1d7ea;
     height: 70px;
     display: inline-block;
     border-radius: 100%;
@@ -288,5 +289,23 @@ h4.modal-title{
 }
 
 .actual{
-    background-color: blue;
+    background-color:#00aeef;
+}
+
+.body-proyecto{
+    margin-left: 5%;
+
+}
+
+img.status{
+    z-index:999;
+}
+
+.line{
+    width: 65%;
+    height: 1px;
+    background-color:#d1d7ea;
+    margin-top: -6%;
+    margin-left: 15%;
+    z-index:10;
 }
