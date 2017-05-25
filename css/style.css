@@ -279,6 +279,8 @@ h4.modal-title{
     display: inline-block;
     border-radius: 100%;
     margin-left: 1rem;
+    padding-top: 2rem;
+    padding-left: 2rem;
 }
 
 .estado img{
