@@ -2,145 +2,9 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1, minimum-scale=1"/>
-	<title>Ideeo</title>
-	<link rel="stylesheet" href="./css/bootstrap.min.css">
-	<link rel="stylesheet" href="./css/normalize.css">
-	<link rel="stylesheet" href="./css/font-awesome.min.css">
-	<link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" href="./css/style-jor.css">
-  <link rel="stylesheet" href="./css/responsive.css">
+
 </head>
 <body>
-
-	<!--top-navbar
-	<div class="separador"></div>
-	
-	<nav class="navbar navbar-default navbar-fixed-top">
-  		<div class="container-fluid">
-  			<div class="col-xs-4">
-  				<div class="logo-cliente">
-  					bancomer
-  				</div>
-  			</div>
-  			<div class="col-xs-8">
-  				<div class="usuario">
-  					<ul>
-  						<li class="fa fa-bell" aria-hidden="true"></li>
-  						<li><img src="./images/user-icon.jpg" alt="" class="user-icon"><p>nombre</p></li>
-  						<li class=" fa fa-sign-out" aria-hidden></li><p>Salir</p>
-  					</ul>
-  				</div>
-  			</div>		
-  		</div>
-  	</nav>
-   top-navbar-fin-->
-
-   <!--sidebar-->
-
-
-
-   <!--sidebar-fin-->
-
-
-   <div id="wrapper">
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top navbar-cim" role="navigation">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="index.html">Cliente</a>
-      </div>
-      <!-- Top Menu Items -->
-      <ul class="nav navbar-right top-nav">
-       <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-bell"></i> <b class="caret"></b></a>
-        <ul class="dropdown-menu message-dropdown">
-          <li class="message-preview">
-            <a href="#">
-              <div class="media">
-                <span class="pull-left">
-                  <img class="media-object" src="images/woman.png">
-                </span>
-                <div class="media-body">
-                  <h5 class="media-heading"><strong>Usuario</strong>
-                  </h5>
-                  <p class="small text-muted"><i class="fa fa-clock-o"></i> hora 4:32 PM</p>
-                  <p>Lorem ipsum dolor sit amet, consectetur</p>
-                </div>
-              </div>
-            </a>
-          </li>
-
-
-          <li class="message-footer">
-            <a href="#">Ver todos los mensajes</a>
-          </li>
-        </ul>
-      </li>
-
-      <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img src="images/man.png"> Usuario <b class="caret"></b></a>
-        <ul class="dropdown-menu">
-
-          <li>
-            <a href="#"><i class="fa fa-fw fa-power-off"></i> Salir</a>
-          </li>
-        </ul>
-      </li>
-    </ul>
-    <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
-    <div class="collapse navbar-collapse navbar-ex1-collapse">
-      <ul class="nav navbar-nav side-nav">
-        <h2 class="sidebar-head">Mi trabajo</h2>
-        <li class="active">
-          <a href="index.html">Mis Proyectos</a>
-        </li>
-        <li>
-          <a href="#">Usuarios</a>
-        </li>
-        <li>
-          <a href="#">Calendario</a>
-        </li>
-        <li>
-          <a href="#">Facturas</a>
-        </li>
-        <li>
-          <a href="#">Remisiones</a>
-        </li>
-        <li>
-          <a href="#">Presupuesto</a>
-        </li>
-        <li>
-          <a href="#">Reportes</a>
-        </li>
-
-        <h2 class="sidebar-head">Más opciones</h2>
-        <li>
-          <a href="#">Mi perfil</a>
-        </li>
-        <li>
-          <a href="#">Configuración</a>
-        </li>
-        <li>
-          <a href="#">Manual de usuario</a>
-        </li>
-        <li>
-          <a href="#">Salir</a>
-        </li>
-      </ul>
-    </div>
-    <!-- /.navbar-collapse -->
-  </nav>
-
   <div id="page-wrapper">
 
     <div class="container-fluid">
@@ -376,6 +240,7 @@
           <h4>Últimos archivos</h4>
           <ul>
             <li class="fav">
+            <br>
               <div class="fav-img"><img src="./images/estadodecuenta.jpg" alt=""></div>
               <div class="fav-text">
                 <h6><a href="#">Edo de Cuenta BBVA r08.pdf</a></h6>
@@ -384,15 +249,15 @@
                 </div>
                 <div class="icons-product"><a href="#"><img class="eye" src="images/icon-eye.png"></a></div>
                 <div class="icons-product"><a href="#"><img class="eye" src="images/icon-msn.png"></a></div>
+
                 <div class="icons-product"><a href="#" class="buton-estado"><button class="buton-estado"> • No</button></a></div>
                 <div class="icons-product"><a href="#" class="buton-estado"><button class="buton-estado"> • Si</button></a></div>
-
-
               </li>
               <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                 <div class="panel-body">
                   <ul>
                     <li class="fav">
+                               <br>
                       <div class="fav-img"><img src="./images/estadodecuenta.jpg" alt=""></div>
                       <div class="fav-text">
                         <h6><a href="#">Edo de Cuenta BBVA r08.pdf</a></h6>

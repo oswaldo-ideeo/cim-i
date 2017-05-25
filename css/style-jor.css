@@ -389,7 +389,7 @@ td.cursor{
 
 .fav{
   background: #fafafa;
-  height: 70px;
+  height: 120px;
   list-style: none;
   margin-bottom: 1.5rem;
 
@@ -533,6 +533,11 @@ opacity: .7;
 
 .color-collaps{
 	background-color:whitesmoke;
+}
+
+.aprove{
+	margin-left: 15%;
+	position: absolute;
 }
 
 

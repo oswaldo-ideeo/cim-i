@@ -48,6 +48,10 @@
 		margin-left: -5%;
 	}
 
+	.line{
+		display: none;
+	}
+
 }
 
 @media only screen and (max-device-width :450px) {
