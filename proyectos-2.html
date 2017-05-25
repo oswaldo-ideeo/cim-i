@@ -332,7 +332,7 @@
       </tr>
       <!-- FILA UNO DE TABLA principal -->
       <tr class="visible">
-        <td data-toggle="modal" data-target="#myModal2" class="sol-pd"  class="estado-color">Estado de Cuenta 000000</td>
+        <td data-toggle="modal" data-target="#myModal2" class="sol-pd estado-color cursor">Estado de Cuenta 000000</td>
         <td>603547</td>
         <td class="responsive-ocult">29 Abr</td>
         <td class="responsive-ocult">1</td>
@@ -348,8 +348,19 @@
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title" id="myModalLabel">Nueva Solicitud</h4>
+
+            <div class="dropdown">
+             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <button  id="dLabel" class="cim-generica bt-azul" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Edo de Cuenta BBVA_r08
+                <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dLabel">
+                <li><a href="#">CIM G</a></li>
+                <li><a href="#">CIM G</a></li>
+              </ul>
+            </div>
+
           </div>
           <div class="modal-body">
             <div class="body-proyecto">
@@ -375,7 +386,7 @@
     </tr>
 
     <tr class="uno">
-      <td class="estado-color">Estado de Cuenta BBVA</td>
+      <td class="estado-color">Estado de Cuenta BBVA </td>
       <td>063547</td>
       <td class="responsive-ocult">02 Feb</td>
       <td><button class="aprobar"><b class="bullet">•</b> Aprobación</button></td>
@@ -409,7 +420,7 @@
 
     <!-- FILA DOS DE TABLA -->
     <tr class="visible">
-      <td class="estado-color">Welcome Kit nuevos</td>
+      <td class="estado-color">Welcome Kit nuevos 000000</td>
       <td>063547</td>
       <td class="responsive-ocult">02 Feb</td>
       <td class="responsive-ocult">3</td>
@@ -462,7 +473,7 @@
 
   <!-- FILA TRES DE TABLA -->
   <tr class="visible">
-    <td class="estado-color">Flyer Edo de Cuenta BBVA</td>
+    <td class="estado-color">Flyer Edo de Cuenta BBVA 000000</td>
     <td>5347</td>
     <td class="responsive-ocult">12 May</td>
     <td class="responsive-ocult">3</td>

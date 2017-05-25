@@ -371,8 +371,14 @@ img.sol-pd{
 }
 
 
+button.bt-azul{
+	color:#00aeef;
+	padding-left: 5%;
+	padding-right: 5%;
+}
 
-
-
+td.cursor{
+	cursor: pointer;
+}
 
 
