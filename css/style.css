@@ -272,3 +272,19 @@ h4.modal-title{
 .data1, .data2, .data3{
     display: none;
 }
+.estado{
+    width: 70px;
+    background-color: gray;
+    height: 70px;
+    display: inline-block;
+    border-radius: 100%;
+    margin-left: 1rem;
+}
+
+.estado img{
+    max-width: 100%
+}
+
+.actual{
+    background-color: blue;
+}
