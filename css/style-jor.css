@@ -498,6 +498,25 @@ a.ver-mas-archivos:hover{
 	text-decoration: none;
 }
 
+a.ver-comentarios{
+	border:solid 1px;
+	width: 200px;
+	text-align: center;
+	padding: 10px;
+	border-radius: 10px;
+	border-color:#d1d7ea;
+	font-size: 13px;
+	display: block;
+	margin: auto;
+}
+
+a.ver-comentarios:hover{
+	border-color:#d1d7ea;
+	background-color:#00aeef;
+	color: #ffffff;
+	text-decoration: none;
+}
+
 
 
 
