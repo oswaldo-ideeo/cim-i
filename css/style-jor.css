@@ -381,4 +381,59 @@ td.cursor{
 	cursor: pointer;
 }
 
+.favoritos{
+  text-align: center;
+  margin-top: 2rem;
+}
+
+
+.fav{
+  background: #fafafa;
+  height: 70px;
+  list-style: none;
+  margin-bottom: 1.5rem;
+
+}
+
+.t-fav{
+  width: 90%;
+  font-weight: 100;
+  font-size: 1.5rem;
+}
+.fav-img, .fav-text, .cerrar-f{
+  float: left;
+}
+
+.fav-img{
+  width: 15%;
+  height: 70px;
+  border-right: 1px solid #f1f1f1;
+  padding-top: 2.2rem;
+}
+
+.fav-img img{
+  max-width: 100%;
+  width: 20px;
+
+}
+
+.fav-text{
+  width: 70%;
+  text-align: left;
+  font-weight: 100;
+  font-size: 1.1rem;
+  padding-left: 1rem;
+}
+
+.cerrar-f{
+  width: 15%;
+  padding-top: 2.2rem;
+}
+
+h6{
+  color: #2DCCCD;
+  font-weight: 300;
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
 
