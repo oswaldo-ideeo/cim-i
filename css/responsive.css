@@ -1,60 +1,82 @@
-@media only screen and (max-device-width : 1500px) {
-	.solicitudes-espacio{
-		padding-left: 77px;
-	}
 
-	.marge-icons{
-		margin-left: 25%;
+
+@media only screen and (max-device-width :2200px) {
+		.solicitudes-espacio{
+		padding-right: 8%;
+		text-align: right;
 	}
 
 }
 
-@media only screen and (max-device-width : 1350px) {
+
+@media only screen and (max-device-width : 1600px) {
 
 		.solicitudes-espacio{
-		padding-left:4%;
-	}
-
-	.marge-icons{
-		margin-left: 17%;
+		padding-right: 7%;
 	}
 
 }
+
 
 @media only screen and (max-device-width : 1350px) {
 
+	.solicitudes-espacio{
+		padding-right: 5%;
+	}
+
 	.marge-icons{
-		margin-left: -35%;
-		margin-top:-2%;
+		padding-right: 29px;
 	}
 
 }
 
-@media only screen and (max-device-width :990px) {
-	.solicitudes-espacio{
-		padding-left:2%;
-	}
+
+
+
+@media only screen and (max-device-width : 1100px) {
 
 	.marge-icons{
-		margin-left:0%;
-		margin-top:0%;
+
+		margin-top:-2%;
+		padding-right: 0px;
 	}
 
-	img.sol-pd{
+}
+
+
+
+@media only screen and (max-device-width :990px) {
+	button.sol-pd{
 		margin-left: 0%;
 	}
 
 	.form-control-buscar{
-		margin-left: -5%;
+		margin-left: 0%;
+		padding-left:0%;
 	}
 
 	.line{
 		display: none;
 	}
 
+	.div-paddin{
+		padding-bottom:3%;
+	}
+
+    .solicitudes-espacio{
+		text-align:left;
+	}
+
+	.marge-icons{
+text-align: left;
+padding-top: 4%;
+padding-bottom: 2%;
+	}
+
+
 }
 
-@media only screen and (max-device-width :450px) {
+@media only screen and (max-device-width :450px){
 
 td.responsive-ocult{
 	display:none;

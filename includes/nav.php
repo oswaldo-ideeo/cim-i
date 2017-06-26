@@ -10,7 +10,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.html">Cliente</a>
+            <a class="navbar-brand" href="index.php">Cliente</a>
         </div>
         <!-- Top Menu Items -->
         <ul class="nav navbar-right top-nav">
@@ -55,7 +55,7 @@
         <ul class="nav navbar-nav side-nav">
             <h2 class="sidebar-head">Mi trabajo</h2>
             <li class="active">
-                <a href="index.html">Mis Proyectos</a>
+                <a href="index.php">Mis Proyectos</a>
             </li>
             <li>
                 <a href="#">Usuarios</a>

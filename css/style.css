@@ -259,7 +259,7 @@ color: #00aeef;
 
 
 
-img.sol-pd:hover{
+button.sol-pd:hover{
 opacity: .8;
 cursor: pointer;
 }
@@ -308,4 +308,47 @@ img.status{
     margin-top: -6%;
     margin-left: 15%;
     z-index:10;
+}
+
+.active-ros{
+    background-color: #ff3366;
+}
+
+
+.estados-text{
+    float: left;
+    width: 70px;
+    margin-top: 2.5rem;
+    margin-left: -2rem;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #d1d7ea;   
+}
+
+.e-actual{
+    color: #000;
+    font-weight: bold;
+}
+
+.pasado{
+    background-color: #1071ba;
+}
+
+.chart{
+    width: 50%;
+}
+.fav{
+    height: 150px!important;
+}
+
+.ct-label{
+    font-size: 20px!important;
+}
+
+.trian-modal{
+    position: absolute;
+    right: 0;
+    top: 25px;
+    cursor: pointer;
+
 }

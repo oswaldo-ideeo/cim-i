@@ -1,10 +1,13 @@
 
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
-
+    <?php include 'includes/header.php'; ?>
 </head>
 <body>
+      <?php include 'includes/nav.php'; ?>
+
   <div id="page-wrapper">
 
     <div class="container-fluid">
@@ -60,15 +63,13 @@
             <span class="caret"></span>
           </button>
           <ul class="dropdown-menu" aria-labelledby="dLabel">
-            <li><a href="#">CIM G</a></li>
-            <li><a href="#">CIM G</a></li>
+            <li><a href="#"><b>Comentarios 1</b></a></li>
+            <li><a href="#"><b>Comentarios 2</b></a></li>
           </ul>
         </div>
       </div>
       <div class="col-md-5">
        <div class="marge-icons">
-        <img class="add-person" src="images/woman.png">
-        <a href="#"><img class="add-icon" src="images/add-icon.png"></a>
         <a href="#"><a href="#"><img class="clip" src="images/clip.png"></a>
         <a href="#"><img class="clip" src="images/fecha.png"></a>
         <a href="#"><img class="clip" src="images/icon-points.png"></a>
@@ -90,14 +91,14 @@
           </div>
         </form>
       </div>
-      <div class="col-md-4 col-xs-12">
+      <div class="col-md-4 col-xs-12 div-paddin">
         <!-- Button trigger modal -->
-        <img  data-toggle="modal" data-target="#myModal" class="sol-pd" src="images/solicitar-pd.png">
+        <!--<button data-toggle="modal" data-target="#myModal" class="sol-pd">+ Solicitar Producto</button>-->
       </div>
     </div>
   </section>
 
-  <!-- Modal -->
+  <!-- Modal 1 -->
   <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
@@ -108,7 +109,7 @@
         <div class="modal-body">
           <div class="body-proyecto">
             <form action="">
-              <label for="tipo" class="etiquetas">Tipo:</label>
+              <label for="tipo" class="etiquetas">Naturaleza de producto:</label>
               <select name="tipo" id="opciones" class="opciones">
                 <option value="0">Elige una opción</option>
                 <option value="1">Dato Varibale</option>
@@ -179,7 +180,7 @@
     </div>
   </div>
 </div>
-<!-- TERMINA Modal -->
+<!-- TERMINA Modal 1-->
 
 
 <section class="section3">
@@ -187,176 +188,35 @@
     <table class="table">
       <tr class="blue-color">
         <td>Nombre del Producto</td>
+        <td class="responsive-ocult">Id</td>
         <td >No. Referencia</td>
         <td class="responsive-ocult">Fecha de Creación</td>
         <td class="responsive-ocult">Versiones</td>
         <td >Usuarios</td>
-        <td ></td>
+        <td class="responsive-ocult">Pedidos</td>
         <td class="responsive-ocult"></td>
       </tr>
       <!-- FILA UNO DE TABLA principal -->
       <tr class="visible">
-        <td data-toggle="modal" data-target="#myModal2" class="sol-pd estado-color cursor">Estado de Cuenta 000000</td>
+        <td data-toggle="modal" data-target="#myModal2" class="sol-pd estado-color cursor">Estado de Cuenta
+        </td>
+        <td class="responsive-ocult">47</td>
         <td>603547</td>
         <td class="responsive-ocult">29 Abr</td>
         <td class="responsive-ocult">1</td>
-        <td><img src="images/man.png"> 3 más</td>
-        <td class="estado-color responsive-ocult">4 pedidos (s)</td>
+        <td><img class="icon-people" src="images/man.png"> 3 más</td>
+        <td class="estado-color responsive-ocult">4 </td>
         <td>
          <div class="action"><span class="glyphicon glyphicon-triangle-bottom"></span></div>
        </td>
      </tr>
 
-     <!-- Modal2 -->
-     <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <div class="dropdown">
-             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-             <button  id="dLabel" class="cim-generica bt-azul" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Edo de Cuenta BBVA_r08
-              <span class="caret"></span>
-            </button>
-            <ul class="dropdown-menu" aria-labelledby="dLabel">
-              <li><a href="#">CIM G</a></li>
-              <li><a href="#">CIM G</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="modal-body">
-        
-          <div class="body-proyecto">
-            <div class="estado actual e-1"><img class="status" src="./images/status-1.png" alt=""></div>
-            <div class="estado e-2"><img class="status" src="./images/status-2.png" alt=""></div>
-            <div class="estado e-3"><img class="status" src="./images/status-3.png" alt=""></div>
-            <div class="estado e-4"><img class="status" src="./images/status-4.png" alt=""></div>
-            <div class="estado e-5"><img class="status" src="./images/status-5.png" alt=""></div>
-            <div class="estado e-6"><img class="status" src="./images/status-6.png" alt=""></div>
-            <div class="line"></div>
-            <br><br><br>
-          </div>
-
-          <h4>Últimos archivos</h4>
-          <ul>
-            <li class="fav">
-            <br>
-              <div class="fav-img"><img src="./images/estadodecuenta.jpg" alt=""></div>
-              <div class="fav-text">
-                <h6><a href="#">Edo de Cuenta BBVA r08.pdf</a></h6>
-                <p>Enviado por: Karen Castañeda
-                  <br></span>14 May. a las 08:50</p>
-                </div>
-                <div class="icons-product"><a href="#"><img class="eye" src="images/icon-eye.png"></a></div>
-                <div class="icons-product"><a href="#"><img class="eye" src="images/icon-msn.png"></a></div>
-
-                <div class="icons-product"><a href="#" class="buton-estado"><button class="buton-estado"> • No</button></a></div>
-                <div class="icons-product"><a href="#" class="buton-estado"><button class="buton-estado"> • Si</button></a></div>
-              </li>
-              <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                <div class="panel-body">
-                  <ul>
-                    <li class="fav">
-                               <br>
-                      <div class="fav-img"><img src="./images/estadodecuenta.jpg" alt=""></div>
-                      <div class="fav-text">
-                        <h6><a href="#">Edo de Cuenta BBVA r08.pdf</a></h6>
-                        <p>Enviado por: Karen Castañeda
-                          <br></span>14 May. a las 08:50</p>
-                        </div>
-                        <div class="icons-product"><a href="#"><img class="eye" src="images/icon-eye.png"></a></div>
-                        <div class="icons-product"><a href="#"><img class="eye" src="images/icon-msn.png"></a></div>
-                        <div class="icons-product"><a href="#" class="buton-estado"><button class="buton-estado"> • No</button></a></div>
-                        <div class="icons-product"><a href="#" class="buton-estado"><button class="buton-estado"> • Si</button></a></div>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                  <div class="panel panel-default">
-                  </div>
-                  <div class="panel">
-                    <div class="" role="tab" id="headingTwo">
-                      <br>
-                      <h4 class="panel-title">
-                        <a class="collapsed ver-mas-archivos" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                          Ver todos
-                        </a>
-                        <br><br>
-                      </h4>
-                    </div>
-
-                  </div>
-                </ul>
-
-                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                  <div class="panel panel-default">
-                    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-                      <div class="panel-body">
-                        <h3>Comentarios</h3>
-                        <br>
-                        <div class="col-md-1"><img src="images/woman.png"></div>
-                        <div class="col-md-3">Evelin Aguilar</div>
-                        <div class="col-md-4">10 May a las 14:50</div>
-                        <br><br>
-                        <div class="col-md-12"><b>Comentario para: </b> <b style="color:#00aeef;">Priority Kit</b> hombre r08.pdf Revisado el archivo. Sólo una observación: poner el Bold la personalización del frente del archivo.
-                        </div>
-                      </div>
-                      <div class="panel">
-                        <div class="panel-heading" role="tab" id="headingThree">
-                          <h4 class="panel-title">
-                            <br>
-                            <div class="col-md-8 col-sm-12">
-                              <form>
-                                <div class="form-group">
-                                  <input type="email" class="form-control" placeholder="Comenta aquí ..." id="email">
-                                </div>
-                              </form>
-                            </div>
-                            <div class="col-md-4 col-sm-12 margin-tp">
-                              <a class="coment-estadocuenta" href="#">Comentar</a>
-                            </div>
-                            <br>
-                            <br>
-                            <br>
-                            <a class="collapsed ver-comentarios" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                              Ver 13 comentarios más
-                            </a>
-                          </h4>
-                        </div>
-                        <div id="collapseThree" class="panel-collapse collapse color-collaps" role="tabpanel" aria-labelledby="headingThree">
-                          <div class="panel-body">
-                            <div class="col-md-1"><img src="images/woman.png"></div>
-                            <div class="col-md-3">Evelin Aguilar</div>
-                            <div class="col-md-4">10 May a las 14:50</div>
-                            <br><br>
-                            <div class="col-md-12"><b>Comentario para: </b> <b style="color:#00aeef;">Priority Kit</b> hombre r08.pdf Revisado el archivo. Sólo una observación: poner el Bold la personalización del frente del archivo.
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </ul>
-  </div>
-</div>
-<!-- TERMINA Modal2 -->
-
-
-
-
-
 <tr class="uno">
-  <td><h4 class="h4-ver">Versiones</h4><a href="#"><img class="sol-pedido" src="images/solicitar-pedido.png"></a></td>
+  <td><h4 class="h4-ver">Versiones</h4><a href="#"><img class="sol-pedido" src="images/add-icon.png"></a></td>
+  <td class="responsive-ocult"></td>
   <td></td>
-  <td></td>
-  <td></td>
+  <td ></td>
+  <td class="responsive-ocult"></td>
   <td class="responsive-ocult"></td>
   <td class="responsive-ocult"></td>
   <td class="responsive-ocult"></td>
@@ -364,11 +224,13 @@
 
 <tr class="uno">
   <td class="estado-color">Estado de Cuenta BBVA </td>
-  <td>063547</td>
+  <td class="responsive-ocult">063547</td>
   <td class="responsive-ocult">02 Feb</td>
+  
+  <td class="responsive-ocult"></td>
+  <td class="responsive-ocult">9</td>
+  <td class="responsive-ocult"></td>
   <td><button class="aprobar"><b class="bullet">•</b> Aprobación</button></td>
-  <td class="responsive-ocult"> 5 más</td>
-  <td class="responsive-ocult">1 pedido (s)</td>
   <td><a href="#"><span class="glyphicon glyphicon-share-alt"></span></a></td>
 </tr>
 
@@ -376,42 +238,48 @@
 
 <tr class="uno">
   <td class="estado-color">Estado de Cuenta B/N</td>
-  <td>063547</td>
+  <td class="responsive-ocult">063547</td>
   <td class="responsive-ocult">02 Feb</td>
+  
+  <td class="responsive-ocult"></td>
+  <td class="responsive-ocult">2</td>
+  <td class="responsive-ocult"></td>
   <td><button class="entiempo"><b class="bullet-entiempo">•</b> En tiempo</button></td>
-  <td class="responsive-ocult"> 1 más</td>
-  <td class="responsive-ocult">2 pedido (s)</td>
   <td><a href="#"><span class="glyphicon glyphicon-share-alt"></span></a></td>
 </tr>
 
 <tr class="uno">
   <td class="estado-color">RA Edo de Cta BBVA</td>
-  <td>603547</td>
+  <td class="responsive-ocult">603547</td>
   <td class="responsive-ocult">27 Jun</td>
-  <td><button class="detenido"><b class="bullet-detenido">•</b> Detenido</button></td>
-  <td class="responsive-ocult"> 3 más</td>
-  <td class="responsive-ocult">4 pedido (s)</td>
+
+  <td class="responsive-ocult"></td>
+  <td class="responsive-ocult">4</td>
+  <td class="responsive-ocult"></td>
+    <td><button class="detenido"><b class="bullet-detenido">•</b> Detenido</button></td>
   <td><a href="#"><span class="glyphicon glyphicon-share-alt"></span></a></td>
 </tr>
 <!-- TERMINA FILA UNO DE TABLA -->
 
 <!-- FILA DOS DE TABLA -->
 <tr class="visible">
-  <td class="estado-color">Welcome Kit nuevos 000000</td>
+  <td class="estado-color" data-toggle="modal" data-target="#myModal3">Welcome Kit nuevos</td>
+  <td class="responsive-ocult">98</td>
   <td>063547</td>
   <td class="responsive-ocult">02 Feb</td>
   <td class="responsive-ocult">3</td>
-  <td ><img src="images/woman.png"> 5 más</td>
-  <td class="estado-color responsive-ocult">1 pedido (s)</td>
+  <td><img class="icon-people" src="images/woman.png"> 5 más</td>
+  <td class="estado-color responsive-ocult">1</td>
   <td>
    <div class="action2"><span class="glyphicon glyphicon-triangle-bottom"></span></div>
  </td>
 </tr>
 <tr class="dos">
-  <td><h4 class="h4-ver">Versiones</h4><a href="#"><img class="sol-pedido" src="images/solicitar-pedido.png"></a></td>
+  <td><h4 class="h4-ver">Versiones</h4><a href="#"><img class="sol-pedido" src="images/add-icon.png"></a></td>
   <td></td>
   <td></td>
-  <td></td>
+  <td class="responsive-ocult"></td>
+  <td class="responsive-ocult"></td>
   <td class="responsive-ocult"></td>
   <td class="responsive-ocult"></td>
   <td class="responsive-ocult"></td>
@@ -419,53 +287,61 @@
 
 <tr class="dos">
   <td class="estado-color">Estado de Cuenta BBVA</td>
-  <td>063547</td>
+  <td class="responsive-ocult">063547</td>
   <td class="responsive-ocult">02 Feb</td>
-  <td><button class="aprobar"><b class="bullet">•</b> Aprobación</button></td>
-  <td class="responsive-ocult"> 5 más</td>
-  <td class="responsive-ocult">1 pedido (s)</td>
+
+  <td class="responsive-ocult"></td>
+  <td class="responsive-ocult">1</td>
+  <td class="responsive-ocult"></td>
+    <td><button class="aprobar"><b class="bullet">•</b> Aprobación</button></td>
   <td><a href="#"><span class="glyphicon glyphicon-share-alt"></span></a></td>
 </tr>
 
 <tr class="dos">
   <td class="estado-color">Estado de Cuenta B/N</td>
-  <td>063547</td>
+  <td class="responsive-ocult">063547</td>
   <td class="responsive-ocult">02 Feb</td>
-  <td><button class="entiempo"><b class="bullet-entiempo">•</b> En tiempo</button></td>
-  <td class="responsive-ocult"> 1 más</td>
-  <td class="responsive-ocult">2 pedido (s)</td>
+  <td class="responsive-ocult"></td>
+  <td class="responsive-ocult">2</td>
+  <td class="responsive-ocult"></td>
+    <td><button class="entiempo"><b class="bullet-entiempo">•</b> En tiempo</button></td>
   <td><a href="#"><span class="glyphicon glyphicon-share-alt"></span></a></td>
 </tr>
 
 <tr class="dos">
   <td class="estado-color">RA Edo de Cta BBVA</td>
-  <td>603547</td>
+  <td class="responsive-ocult">603547</td>
   <td class="responsive-ocult">27 Jun</td>
+
+  <td class="responsive-ocult"></td>
+  <td class="responsive-ocult">4</td>
+  <td class="responsive-ocult"></td>
   <td><button class="detenido"><b class="bullet-detenido">•</b> Detenido</button></td>
-  <td class="responsive-ocult"> 3 más</td>
-  <td class="responsive-ocult">4 pedido (s)</td>
   <td><a href="#"><span class="glyphicon glyphicon-share-alt"></span></a></td>
 </tr>
 <!--TERMINA FILA DOS DE TABLA -->
 
+
 <!-- FILA TRES DE TABLA -->
 <tr class="visible">
-  <td class="estado-color">Flyer Edo de Cuenta BBVA 000000</td>
+  <td class="estado-color" data-toggle="modal" data-target="#myModal4" class="sol-pd estado-color cursor" id="grafica-det">Flyer Edo de Cuenta BBVA</td>
+  <td class="responsive-ocult">34</td>
   <td>5347</td>
   <td class="responsive-ocult">12 May</td>
   <td class="responsive-ocult">3</td>
-  <td><img src="images/woman.png"> 1 más</td>
-  <td class="estado-color responsive-ocult">2 pedido (s)</td>
+  <td><img class="icon-people" src="images/woman.png"> 1 más</td>
+  <td class="estado-color responsive-ocult">2</td>
   <td>
    <div class="action3"><span class="glyphicon glyphicon-triangle-bottom"></span></div>
  </td>
 </tr>
 
 <tr class="tres">
-  <td><h4 class="h4-ver">Versiones</h4><a href="#"><img class="sol-pedido" src="images/solicitar-pedido.png"></a></td>
+  <td><h4 class="h4-ver">Versiones</h4><a href="#"><img class="sol-pedido" src="images/add-icon.png"></a></td>
   <td></td>
   <td></td>
-  <td></td>
+  <td class="responsive-ocult"></td>
+  <td class="responsive-ocult"></td>
   <td class="responsive-ocult"></td>
   <td class="responsive-ocult"></td>
   <td class="responsive-ocult"></td>
@@ -473,34 +349,223 @@
 
 <tr class="tres">
   <td class="estado-color">Estado de Cuenta BBVA</td>
-  <td>063547</td>
+  <td class="responsive-ocult">063547</td>
   <td class="responsive-ocult">02 Feb</td>
+  
+  <td class="responsive-ocult"></td>
+  <td class="responsive-ocult">3</td>
+  <td class="responsive-ocult"></td>
   <td><button class="aprobar"><b class="bullet">•</b> Aprobación</button></td>
-  <td class="responsive-ocult"> 5 más</td>
-  <td class="responsive-ocult">1 pedido (s)</td>
   <td><a href="#"><span class="glyphicon glyphicon-share-alt"></span></a></td>
 </tr>
 
 <tr class="tres">
   <td class="estado-color">Estado de Cuenta B/N</td>
-  <td>063547</td>
+  <td class="responsive-ocult">063547</td>
   <td class="responsive-ocult">02 Feb</td>
+  <td class="responsive-ocult"></td>
+  <td class="responsive-ocult">5</td>
+  <td class="responsive-ocult"></td>
   <td><button class="entiempo"><b class="bullet-entiempo">•</b> En tiempo</button></td>
-  <td class="responsive-ocult"> 1 más</td>
-  <td class="responsive-ocult">2 pedido (s)</td>
   <td><a href="#"><span class="glyphicon glyphicon-share-alt"></span></a></td>
 </tr>
 
 <tr class="tres">
   <td class="estado-color">RA Edo de Cta BBVA</td>
-  <td>603547</td>
+  <td class="responsive-ocult">603547</td>
   <td class="responsive-ocult">27 Jun</td>
+  <td class="responsive-ocult"></td>
+  <td class="responsive-ocult">1</td>
+  <td class="responsive-ocult"></td>
   <td><button class="detenido"><b class="bullet-detenido">•</b> Detenido</button></td>
-  <td class="responsive-ocult"> 3 más</td>
-  <td class="responsive-ocult">4 pedido (s)</td>
   <td><a href="#"><span class="glyphicon glyphicon-share-alt"></span></a></td>
 </tr>
 <!--TERMINA FILA TRES DE TABLA -->
+
+
+<!-- FILA cuatro DE TABLA -->
+<tr class="visible">
+  <td class="estado-color" data-toggle="modal" data-target="#myModal5" class="sol-pd estado-color cursor">Cuenta BBVA</td>
+  <td class="responsive-ocult">34</td>
+  <td>5347</td>
+  <td class="responsive-ocult">12 May</td>
+  <td class="responsive-ocult">3</td>
+  <td><img class="icon-people" src="images/woman.png"> 1 más</td>
+  <td class="estado-color responsive-ocult">2</td>
+  <td>
+   <div class="action4"><span class="glyphicon glyphicon-triangle-bottom"></span></div>
+ </td>
+</tr>
+
+<tr class="cuatro">
+  <td><h4 class="h4-ver">Versiones</h4><a href="#"><img class="sol-pedido" src="images/add-icon.png"></a></td>
+  <td></td>
+  <td></td>
+  <td class="responsive-ocult"></td>
+  <td class="responsive-ocult"></td>
+  <td class="responsive-ocult"></td>
+  <td class="responsive-ocult"></td>
+  <td class="responsive-ocult"></td>
+</tr>
+
+<tr class="cuatro">
+  <td class="estado-color">Estado de Cuenta BBVA</td>
+  <td class="responsive-ocult">063547</td>
+  <td class="responsive-ocult">02 Feb</td>
+  
+  <td class="responsive-ocult"></td>
+  <td class="responsive-ocult">3</td>
+  <td class="responsive-ocult"></td>
+  <td><button class="aprobar"><b class="bullet">•</b> Aprobación</button></td>
+  <td><a href="#"><span class="glyphicon glyphicon-share-alt"></span></a></td>
+</tr>
+
+<tr class="cuatro">
+  <td class="estado-color">Estado de Cuenta B/N</td>
+  <td class="responsive-ocult">063547</td>
+  <td class="responsive-ocult">02 Feb</td>
+  <td class="responsive-ocult"></td>
+  <td class="responsive-ocult">5</td>
+  <td class="responsive-ocult"></td>
+  <td><button class="entiempo"><b class="bullet-entiempo">•</b> En tiempo</button></td>
+  <td><a href="#"><span class="glyphicon glyphicon-share-alt"></span></a></td>
+</tr>
+
+<tr class="cuatro">
+  <td class="estado-color">RA Edo de Cta BBVA</td>
+  <td class="responsive-ocult">603547</td>
+  <td class="responsive-ocult">27 Jun</td>
+  <td class="responsive-ocult"></td>
+  <td class="responsive-ocult">1</td>
+  <td class="responsive-ocult"></td>
+  <td><button class="detenido"><b class="bullet-detenido">•</b> Detenido</button></td>
+  <td><a href="#"><span class="glyphicon glyphicon-share-alt"></span></a></td>
+</tr>
+<!--TERMINA FILA cuatro DE TABLA -->
+
+<!-- FILA SINCO DE TABLA -->
+<tr class="visible">
+  <td class="estado-color" data-toggle="modal" data-target="#myModal6" class="sol-pd estado-color cursor">BBVA</td>
+  <td class="responsive-ocult">34</td>
+  <td>5347</td>
+  <td class="responsive-ocult">12 May</td>
+  <td class="responsive-ocult">3</td>
+  <td><img class="icon-people" src="images/woman.png"> 1 más</td>
+  <td class="estado-color responsive-ocult">2</td>
+  <td>
+   <div class="action5"><span class="glyphicon glyphicon-triangle-bottom"></span></div>
+ </td>
+</tr>
+
+<tr class="sinco">
+  <td><h4 class="h4-ver">Versiones</h4><a href="#"><img class="sol-pedido" src="images/add-icon.png"></a></td>
+  <td></td>
+  <td></td>
+  <td class="responsive-ocult"></td>
+  <td class="responsive-ocult"></td>
+  <td class="responsive-ocult"></td>
+  <td class="responsive-ocult"></td>
+  <td class="responsive-ocult"></td>
+</tr>
+
+<tr class="sinco">
+  <td class="estado-color">Estado de Cuenta BBVA</td>
+  <td class="responsive-ocult">063547</td>
+  <td class="responsive-ocult">02 Feb</td>
+  
+  <td class="responsive-ocult"></td>
+  <td class="responsive-ocult">3</td>
+  <td class="responsive-ocult"></td>
+  <td><button class="aprobar"><b class="bullet">•</b> Aprobación</button></td>
+  <td><a href="#"><span class="glyphicon glyphicon-share-alt"></span></a></td>
+</tr>
+
+<tr class="sinco">
+  <td class="estado-color">Estado de Cuenta B/N</td>
+  <td class="responsive-ocult">063547</td>
+  <td class="responsive-ocult">02 Feb</td>
+  <td class="responsive-ocult"></td>
+  <td class="responsive-ocult">5</td>
+  <td class="responsive-ocult"></td>
+  <td><button class="entiempo"><b class="bullet-entiempo">•</b> En tiempo</button></td>
+  <td><a href="#"><span class="glyphicon glyphicon-share-alt"></span></a></td>
+</tr>
+
+<tr class="sinco">
+  <td class="estado-color">RA Edo de Cta BBVA</td>
+  <td class="responsive-ocult">603547</td>
+  <td class="responsive-ocult">27 Jun</td>
+  <td class="responsive-ocult"></td>
+  <td class="responsive-ocult">1</td>
+  <td class="responsive-ocult"></td>
+  <td><button class="detenido"><b class="bullet-detenido">•</b> Detenido</button></td>
+  <td><a href="#"><span class="glyphicon glyphicon-share-alt"></span></a></td>
+</tr>
+<!--TERMINA FILA SINCO DE TABLA -->
+
+
+
+<!-- FILA SEIS DE TABLA -->
+<tr class="visible">
+  <td class="estado-color" data-toggle="modal" data-target="#myModal7" class="sol-pd estado-color cursor">Cuenta</td>
+  <td class="responsive-ocult">34</td>
+  <td>5347</td>
+  <td class="responsive-ocult">12 May</td>
+  <td class="responsive-ocult">3</td>
+  <td><img class="icon-people" src="images/woman.png"> 1 más</td>
+  <td class="estado-color responsive-ocult">2</td>
+  <td>
+   <div class="action6"><span class="glyphicon glyphicon-triangle-bottom"></span></div>
+ </td>
+</tr>
+
+<tr class="seis">
+  <td><h4 class="h4-ver">Versiones</h4><a href="#"><img class="sol-pedido" src="images/add-icon.png"></a></td>
+  <td></td>
+  <td></td>
+  <td class="responsive-ocult"></td>
+  <td class="responsive-ocult"></td>
+  <td class="responsive-ocult"></td>
+  <td class="responsive-ocult"></td>
+  <td class="responsive-ocult"></td>
+</tr>
+
+<tr class="seis">
+  <td class="estado-color">Estado de Cuenta BBVA</td>
+  <td class="responsive-ocult">063547</td>
+  <td class="responsive-ocult">02 Feb</td>
+  
+  <td class="responsive-ocult"></td>
+  <td class="responsive-ocult">3</td>
+  <td class="responsive-ocult"></td>
+  <td><button class="aprobar"><b class="bullet">•</b> Aprobación</button></td>
+  <td><a href="#"><span class="glyphicon glyphicon-share-alt"></span></a></td>
+</tr>
+
+<tr class="seis">
+  <td class="estado-color">Estado de Cuenta B/N</td>
+  <td class="responsive-ocult">063547</td>
+  <td class="responsive-ocult">02 Feb</td>
+  <td class="responsive-ocult"></td>
+  <td class="responsive-ocult">5</td>
+  <td class="responsive-ocult"></td>
+  <td><button class="entiempo"><b class="bullet-entiempo">•</b> En tiempo</button></td>
+  <td><a href="#"><span class="glyphicon glyphicon-share-alt"></span></a></td>
+</tr>
+
+<tr class="seis">
+  <td class="estado-color">RA Edo de Cta BBVA</td>
+  <td class="responsive-ocult">603547</td>
+  <td class="responsive-ocult">27 Jun</td>
+  <td class="responsive-ocult"></td>
+  <td class="responsive-ocult">1</td>
+  <td class="responsive-ocult"></td>
+  <td><button class="detenido"><b class="bullet-detenido">•</b> Detenido</button></td>
+  <td><a href="#"><span class="glyphicon glyphicon-share-alt"></span></a></td>
+</tr>
+<!--TERMINA FILA SEIS DE TABLA -->
+
+
 </table>
 </div>
 </section>
@@ -514,13 +579,41 @@
 </div>
 <!-- /#wrapper -->
 
-
+<?php include 'includes/modal2.php'; ?>
+<?php include 'includes/modal3.php'; ?>
+<?php include 'includes/modal4.php'; ?>
+<?php include 'includes/modal5.php'; ?>
+<?php include 'includes/modal6.php'; ?>
+<?php include 'includes/modal7.php'; ?>
 
 
 <script src="./js/jquery.min.js"></script>
 <script src="./js/bootstrap.min.js"></script>
+<script src="./js/chartist.js"></script>
 
 <!--modal-->
+
+<script>
+function cargaAsin(){
+    new Chartist.Pie('.chart', {
+  series: [62],
+  labels: ['62%']
+
+}, {
+  donut: true,
+  donutWidth: 10,
+  startAngle: 0,
+  total: 100
+});
+ }
+
+$('#grafica-det').on('click', function(){
+  setTimeout('cargaAsin()', 500);
+})
+
+
+</script>
+
 <script>
   $('#myModal').on('shown.bs.modal', function () {
     $('#myInput').focus()
@@ -538,6 +631,23 @@
   $(".action3").click(function(){
     $(".tres").slideToggle();
   })
+
+   $(".action4").click(function(){
+    $(".cuatro").slideToggle();
+  })
+
+    $(".action5").click(function(){
+    $(".sincos").slideToggle();
+  })
+
+        $(".action6").click(function(){
+    $(".seis").slideToggle();
+  })
+
+                $(".action7").click(function(){
+    $(".siete").slideToggle();
+  })
+
 
 </script>
 <!--cierre scrip tablas -->
@@ -563,6 +673,16 @@
     var datoTabla = $(select).val();
   }
 </script>
-
+<script>
+  $(document).ready(function(){
+    $('.map1, .map2').hide();
+  })
+  $('.map-apar-1').on('click', function(){
+    $('.map1').toggle();
+  })
+  $('.map-apar-2').on('click', function(){
+    $('.map2').toggle();
+  })
+</script>
 </body>
 </html>
